@@ -6,6 +6,7 @@
 ## Setup
 
 1. Clone the repo using ssh - https://github.com/milenaGugova/sumUpAPI.git
+     You can use "git -c http.sslVerify=false clone https://github.com/milenaGugova/sumUpAPI.git" command in cmd open in empty folder.
 2. Import the project in IntelliJ - File -> New -> Project from Existing Sources... Select the pom.xml file and the project will be imported.
 
 ---
@@ -22,5 +23,5 @@
 ## Executing tests
 
 1. Go to feature folder - SumUpAPI/src/test/resources/features
-2. In APIScenarios.feature file both test scenarios are placed.
+2. In APIScenarios.feature file both test scenarios are placed - TC01 - Verify that you have no transactions and TC02 - Verify the bank account(s) associated with it
 3. Right click on the feature file and select Run 'Feature: APIScenarios' or open APIScenarios.feature and select separate Scenario and again Right click and Run.
