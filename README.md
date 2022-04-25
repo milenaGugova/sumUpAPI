@@ -5,8 +5,8 @@
 
 ## Setup
 
-1. Clone the repo using ssh - https://github.com/milenaGugova/sumUpAPI.git
-     You can use "git -c http.sslVerify=false clone https://github.com/milenaGugova/sumUpAPI.git" command in cmd open in empty folder.
+1. Clone the repo using ssh.
+     Note: You can use "git -c http.sslVerify=false clone https://github.com/milenaGugova/sumUpAPI.git" command in cmd open in empty folder.
 2. Import the project in IntelliJ - File -> New -> Project from Existing Sources... Select the pom.xml file and the project will be imported.
 
 ---
